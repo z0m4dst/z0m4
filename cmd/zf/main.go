@@ -35,8 +35,10 @@ func main() {
 	case "info":
 		cli.Info(false)
 
-	case "doctor":
-		cli.Doctor(false)
+	case "asc":
+                cli.Asc(false)
+       case "doctor":
+                cli.Asc(false)
 
 	case "i":
 		cli.Install(false)
@@ -48,7 +50,7 @@ func main() {
 		cli.Update(false)
 
 	case "sdx":
-		cli.Sdx(os.Args[2:])
+         cli.SDX(false, os.Args[2:])
 
 	default:
 		help()
