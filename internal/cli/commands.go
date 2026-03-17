@@ -5,11 +5,12 @@ import (
 
 	"z0m4/foundry"
 	"z0m4/internal/sandbox"
+	"z0m4/internal/ui"
 )
 
 func Info(ghost bool) {
-	fmt.Println("z0m4-distro")
-	fmt.Println("core: z0m4F0rg3")
+	fmt.Println(ui.Title("z0m4-distro"))
+	fmt.Println("core:    z0m4F0rg3")
 	fmt.Println("manager: Foundry")
 }
 

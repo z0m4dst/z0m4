@@ -5,6 +5,7 @@ import (
 	"io"
 	"os"
 	"os/exec"
+	"z0m4/internal/ui"
 )
 
 func SDX(args []string) {
@@ -60,5 +61,6 @@ func SDX(args []string) {
 		return
 	}
 
-	fmt.Println("✓ sandbox ok")
+	fmt.Println(ui.Ok("sandbox ok"))
+
 }
