@@ -3,9 +3,13 @@ package main
 import (
 	"fmt"
 	"os"
-
+       // "z0m4/internal/distro"//revisar
 	"z0m4/internal/cli"
+
+        //"z0m4/internal/forge"//revisar
 )
+
+
 
 func help() {
 	fmt.Println("z0m4-distro CLI")
@@ -52,7 +56,14 @@ func main() {
 	case "sdx":
          cli.SDX(false, os.Args[2:])
 
+       // case "distro":
+       //  distro.Run(os.Args[2:])
+
+       //case "forge":
+       // forge.Run(os.Args[2:])
+
 	default:
+
 		help()
 	}
 }
