@@ -3,3 +3,11 @@ bin/
 *.tmp
 .chache/
 .z0m4sandbox/
+zf
+sdx
+*.exe
+*.test
+*.out
+/tmp/
+*.tmp
+.DS_Store
